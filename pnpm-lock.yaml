@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@next/font': ^13.2.1
   '@types/node': 18.14.1
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -17,6 +18,7 @@ specifiers:
   typescript: 4.9.5
 
 dependencies:
+  '@next/font': 13.2.1
   '@types/node': 18.14.1
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -88,6 +90,10 @@ packages:
     resolution: {integrity: sha512-/UW29MPgX5P1J1AVIj9g1TCv4BKzUTBB54wgtEp7X15pEKerACGYv9iny44KGZxSJDizWD2+Zaw6+E7do4kwRA==}
     dependencies:
       glob: 7.1.7
+    dev: false
+
+  /@next/font/13.2.1:
+    resolution: {integrity: sha512-4sergLt7xp9+mZuKME/xM4tLlHGTcmL7naCq0qCTcAlof6NnttshYgiLOdhSiy0NcI+/yM3BjvdEk++O96UzTg==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.2.0:
