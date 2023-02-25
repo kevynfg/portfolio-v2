@@ -7,7 +7,7 @@ import * as Icon from 'phosphor-react';
 
 export default function Home() {
   return (
-    <section>
+    <section className="w-[600px]">
       <motion.h1 
         className="text-3xl font-serif font-bold mb-7"
         initial={{y: 0, opacity: 0}} 
