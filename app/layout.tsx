@@ -2,12 +2,12 @@ import './globals.css'
 import clsx from 'clsx';
 import { Metadata } from "next";
 import AnalyticsWrapper from "components/analytics"
-import localFont from '@next/font/local';
+import localFont from 'next/font/local';
 import Navbar from "components/navbar";
 
 const labrada = localFont({
-  src: '../public/fonts/Labrada-Bold.ttf',
-  weight: '700',
+  src: '../public/fonts/ZenAntique-Regular.ttf',
+  weight: '400',
   variable: '--font-labrada',
   display: 'swap'
 })
@@ -43,9 +43,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="antialiased max-w-6xl flex flex-col items-center justify-center">
+      <body className="antialiased flex flex-col items-center justify-center">
         <Navbar />
-        <main className="">
+        <main className="flex-auto flex flex-col md:mx-auto lg:mx-0">
           {children}
           <AnalyticsWrapper />
         </main>
