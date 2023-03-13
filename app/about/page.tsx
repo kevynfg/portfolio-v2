@@ -23,7 +23,7 @@ export default function About() {
             
             <p className="my-6 text-neutral-200">
                 Tenho uma esposa maravilhosa e um cachorro chamado Júpiter, sou viciado em anime,
-                apaixonado em jogos, e adoro solucinar desafios/problemas.
+                apaixonado em jogos, e adoro solucionar desafios/problemas.
             </p>
             
             <p className="my-6 text-neutral-200">
