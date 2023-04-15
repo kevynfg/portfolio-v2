@@ -12,10 +12,10 @@ export default function About() {
                     Sobre mim
             </h1>
             <p className="my-6 text-neutral-200">
-                Atualmente sou <b>Desenvolvedor Full-stack Jr. III</b> no Grupo Fcamara, 
-                e faço parte do time de Sistemas Internos. Focado no desenvolvimento de novas features,
-                otimização e novas integrações com o sistema interno da empresa que faz o gerenciamento
-                financeiro da empresa, de consultores e agrega setores como: Jurídico, Infra, Governança e Finanças.
+                Atualmente sou <b>Desenvolvedor Full-stack Jr.</b> no Grupo Fcamara, 
+                e faço parte do time de Sistemas Internos. Focado no desenvolvimento de novas features, serviços,
+                otimizações e novas integrações com os produtos da empresa, são produtos que realizam o gerenciamento
+                financeiro da empresa, de consultores (gestão) e módulos externos que agregam para os setores: Jurídico, Infra, Governança e Finanças.
                 Dentro do time também pude participar do desenvolvimento de um projeto de chamados para o Jurídico.
             </p>
 
@@ -28,7 +28,7 @@ export default function About() {
             
             <p className="my-6 text-neutral-200">
                 Apenas recentemente iniciei na área, em 2020 que retomei meus estudos e comecei uma graduação para Análise e Desenvolvimento de Sistemas, um ano depois
-                abriram as portas para eu poder trabalhar na área como um <b>desenvolver</b> trainee.
+                abriram as portas para eu poder trabalhar na área como um <b>desenvolvedor</b> trainee.
             </p>
         </section>
     )
